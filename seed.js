@@ -44,89 +44,88 @@ const seedData = async () => {
 
     // Sample products
     const products = [
-      // Makeup products
-      {
-        name: 'Luxury Foundation',
-        description: 'Full coverage foundation with SPF 30 protection',
-        price: 45.99,
-        category: 'makeup',
-        quantity: 25,
-        image: 'https://images.unsplash.com/photo-1596462502278-27bfdc403348?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60'
-      },
-      {
-        name: 'Matte Lipstick Set',
-        description: 'Collection of 6 long-lasting matte lipsticks',
-        price: 32.50,
-        category: 'makeup',
-        quantity: 15,
-        image: 'https://images.unsplash.com/photo-1586495777744-4413f21062fa?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60'
-      },
-      {
-        name: 'Eyeshadow Palette',
-        description: '12-color eyeshadow palette with blendable formula',
-        price: 28.99,
-        category: 'makeup',
-        quantity: 20,
-        image: 'https://images.unsplash.com/photo-1512496015851-a90fb38ba796?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60'
-      },
-      {
-        name: 'Waterproof Mascara',
-        description: 'Long-lasting waterproof mascara for dramatic lashes',
-        price: 18.75,
-        category: 'makeup',
-        quantity: 30,
-        image: 'https://images.unsplash.com/photo-1631214540231-9511e748803b?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60'
-      },
-      {
-        name: 'Contour Kit',
-        description: 'Professional contour and highlight kit',
-        price: 39.99,
-        category: 'makeup',
-        quantity: 12,
-        image: 'https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60'
-      },
-      
-      // Accessories
-      {
-        name: 'Premium Makeup Brushes',
-        description: 'Set of 12 professional makeup brushes',
-        price: 55.00,
-        category: 'accessories',
-        quantity: 18,
-        image: 'https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60'
-      },
-      {
-        name: 'LED Vanity Mirror',
-        description: 'Hollywood-style LED vanity mirror with dimmer',
-        price: 89.99,
-        category: 'accessories',
-        quantity: 8,
-        image: 'https://images.unsplash.com/photo-1595475207225-428b62bda831?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60'
-      },
-      {
-        name: 'Makeup Organizer',
-        description: 'Clear acrylic makeup organizer with drawers',
-        price: 24.99,
-        category: 'accessories',
-        quantity: 22,
-        image: 'https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60'
-      },
-      {
-        name: 'Beauty Blender Set',
-        description: 'Set of 4 makeup sponges for flawless application',
-        price: 16.50,
-        category: 'accessories',
-        quantity: 35,
-        image: 'https://images.unsplash.com/photo-1549701328-eba253df4cd1?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60'
-      },
-      {
-        name: 'Eyelash Curler',
-        description: 'Professional eyelash curler with refill pads',
-        price: 12.99,
-        category: 'accessories',
-        quantity: 40,
-        image: 'https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60'
-      }
+{
+  name: 'Hydrating Face Serum',
+  description: 'Vitamin C serum for radiant, glowing skin',
+  price: 29.99,
+  category: 'skincare',
+  quantity: 18,
+  image: 'https://images.unsplash.com/photo-1600718373606-bd5df89fd58a?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60'
+},
+{
+  name: 'Gentle Foaming Cleanser',
+  description: 'Daily cleanser for all skin types, sulfate-free',
+  price: 19.50,
+  category: 'skincare',
+  quantity: 25,
+  image: 'https://images.unsplash.com/photo-1600185365850-002aa6d6cf1a?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60'
+},
+{
+  name: 'SPF 50 Sunscreen Lotion',
+  description: 'Non-greasy sun protection for face and body',
+  price: 22.99,
+  category: 'skincare',
+  quantity: 30,
+  image: 'https://images.unsplash.com/photo-1613058083904-0f47f81a65f0?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60'
+},
+{
+  name: 'Night Repair Cream',
+  description: 'Anti-aging cream with retinol and peptides',
+  price: 49.99,
+  category: 'skincare',
+  quantity: 10,
+  image: 'https://images.unsplash.com/photo-1588776814546-daa9d1d6a9c5?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60'
+},
+{
+  name: 'Cooling Eye Gel',
+  description: 'Soothes puffy eyes and reduces dark circles',
+  price: 15.75,
+  category: 'skincare',
+  quantity: 20,
+  image: 'https://images.unsplash.com/photo-1605733515556-7c1d7cdcfb95?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60'
+},
+
+     {
+  name: 'Keratin Shampoo',
+  description: 'Sulfate-free shampoo for strong, shiny hair',
+  price: 21.00,
+  category: 'haircare',
+  quantity: 25,
+  image: 'https://images.unsplash.com/photo-1600180758890-6bd7c37b9e07?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60'
+},
+{
+  name: 'Hair Repair Mask',
+  description: 'Deep conditioning mask for damaged hair',
+  price: 27.50,
+  category: 'haircare',
+  quantity: 15,
+  image: 'https://images.unsplash.com/photo-1596964571832-703e1999c6fd?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60'
+},
+{
+  name: 'Dry Shampoo Spray',
+  description: 'Instant refresh without water',
+  price: 14.99,
+  category: 'haircare',
+  quantity: 35,
+  image: 'https://images.unsplash.com/photo-1612817150916-fcbaaf1d9627?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60'
+},
+{
+  name: 'Argan Oil Serum',
+  description: 'Frizz control and shine enhancer for all hair types',
+  price: 23.80,
+  category: 'haircare',
+  quantity: 28,
+  image: 'https://images.unsplash.com/photo-1596391915812-d1dfce0f9f27?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60'
+},
+{
+  name: 'Heat Protectant Spray',
+  description: 'Guards hair from heat styling up to 450°F',
+  price: 17.25,
+  category: 'haircare',
+  quantity: 22,
+  image: 'https://images.unsplash.com/photo-1600189478366-bb64f638aff4?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60'
+}
+
     ];
 
     // Insert products
